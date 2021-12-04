@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PfeGestionterraines.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            margin-top: 0px;
+        }
+        .auto-style2 {
+            margin-left: 497px;
+            margin-top: 0px;
+        }
+        .auto-style3 {
+            margin-left: 411px;
+        }
+        .auto-style4 {
+            width: 1728px;
+        }
+        .auto-style5 {
+            width: 480px;
+        }
+        .auto-style6 {
+            margin-top: 0px;
+            margin-left: 243px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header>
+                <table style="width:100%; background: url("/Images/illustration1_0.png") no-repeat;" >
+                    <tr>
+                        <td class="auto-style5"><asp:ImageButton ID="ImageButton1" runat="server"  ImageUrl="~/Images/logo-ocp.png" Height="131px" Width="167px" CssClass="auto-style1" DescriptionUrl="~/Accueil.aspx" /> </td>
+                        <td class="auto-style4">
+            <asp:TextBox ID="TextBox1" runat="server" Width="230px" CssClass="auto-style6" Height="23px"></asp:TextBox>
+                        </td>
+                        <td> 
+                            <asp:ImageButton ID="ImageButton2" runat="server" Width="51px" ImageUrl="~/Images/login.png" CssClass="auto-style2" Height="40px" OnClick="ImageButton2_Click" />
+                             <br />
+                            <asp:Panel ID="Panel1" runat="server" CssClass="auto-style3" Height="80px" Visible="False" Width="235px">
+                         <asp:Label ID="Label1" runat="server" Text="Label" Visible="False"></asp:Label>
+                         <br />
+                         <br />
+                         <asp:Button ID="Button1" runat="server" Text="Deconnexion" Height="38px" BackColor="White" BorderColor="White" />
+                                <asp:Button ID="Button2" runat="server" BackColor="#FFFFCC" CssClass="auto-style1" Height="37px" Text="Connexion" Width="112px" />
+                        </asp:Panel></td>
+                    </tr>
+                    
+                
+                
+                    
+               
+                </table>
+                
+                 
+                  <ul>
+                <li><a><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Accueil.aspx" ForeColor="White">HOME</asp:HyperLink></a></li>
+                <li><a>Demandes</a>
+                    <ul>
+                        <li><a><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/typeDemande.aspx" ForeColor="White">Ajouter</asp:HyperLink>A</a></li>
+                        <li><a><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/ListeDemande.aspx" ForeColor="White">Annuler</asp:HyperLink></a></li>
+                        <li><a><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/WebForm8.aspx" ForeColor="White">Infos</asp:HyperLink></a></li>
+                    </ul>
+                </li>
+                <li><a>Plan</a>
+                    <ul>
+                        <li><a><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/WebForm9.aspx" ForeColor="White">les zones vides</asp:HyperLink></a></li>
+                        <li><a><asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/WebForm10.aspx" ForeColor="White">les espaces provisoires</asp:HyperLink></a></li>
+                        <li><a><asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/WebForm11.aspx" ForeColor="White">les espaces définitives</asp:HyperLink></a></li>
+                    </ul>
+                </li>
+                
+                 <li><a>Services Aménagement</a>
+                    <ul>
+                        <li><a><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/WebForm4.aspx" ForeColor="White">infos</asp:HyperLink>A</a></li>
+                        <li><a><asp:HyperLink ID="HyperLink12" runat="server" NavigateUrl="~/WebForm7.aspx" ForeColor="White"></asp:HyperLink></a></li>
+                        <li><a><asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/WebForm8.aspx" ForeColor="White">Infos</asp:HyperLink></a></li>
+                    </ul>
+                </li>
+                <li><a>Contactez_nous</a>
+                    
+                </li>
+                
+              
+            </ul>
+            </header>
+            <table style="width: 100%;">
+                <tr>
+                <td>
+      
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+                </td>
+                <td>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+            
+      
+
+    </div>
+    </form>
+     <footer>
+         <h4 style="text-align: center">Copyright 2018, HamBox@gmaill.com</h4>
+        </footer>
+    
+</body>
+</html>

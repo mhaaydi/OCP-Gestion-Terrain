@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements xmlns="http://schemas.microsoft.com/AspNet/AdRotator-Schedule-File">
+   <Ad>
+    <ImageUrl>~/Images/illustration1_0.png</ImageUrl>
+     <NavigateUrl>http://localhost:52238/WebForm7.aspx</NavigateUrl>
+     <AlternateText>Produits Savons</AlternateText>
+     <Impressions>40</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/Images/illustration6_0.png</ImageUrl>
+    <AlternateText>Produits Maquillages</AlternateText>
+    <NavigateUrl>http://localhost:52238/WebForm8.aspx</NavigateUrl>
+    <Impressions>40</Impressions>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/Images/illustration9_0.png</ImageUrl>
+    <AlternateText>Crémes Mains</AlternateText>
+    <NavigateUrl>http://localhost:52238/WebForm10.aspx</NavigateUrl>
+    <Impressions>40</Impressions>
+  </Ad>
+  
+</Advertisements>
